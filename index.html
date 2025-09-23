@@ -12,6 +12,12 @@
 
 </head>
 <body class="relative min-h-screen min-w-screen bg-[#002E76] bg-[url('./assets/Background.png')] bg-cover bg-no-repeat bg-top">
+
+    <!-- Faixa esquerda (sempre esticada verticalmente via bg-repeat-y) -->
+    <div
+        class="absolute inset-y-0 left-0 z-10 w-[35px] sm:w-8 md:w-10 lg:w-12 xl:w-14 bg-[url('./assets/faixa_lateral_esquerda.svg')] bg-repeat-y bg-center pointer-events-none">
+    </div>
+
     <div class="min-h-screen flex flex-col items-center justify-center gap-[20px] text-[#F9F9F9]">
 
         <header class="flex flex-col items-center justify-center gap-[10px] mr-[1rem] ml-[1rem] pt-4">
@@ -87,7 +93,12 @@
         </footer>
 
     </div> <!--Container-->
-</body>
 
+     <!-- Faixa direita (espelhada). remova transform if não quiser espelhar) -->
+    <div
+        class="absolute inset-y-0 right-0 z-10 w-[35px] sm:w-6 md:w-8 lg:w-10 xl:w-12 bg-[url('./assets/faixa_lateral_direita.svg')] bg-repeat-y bg-center pointer-events-none">
+    </div>
+
+</body>
 
 </html>
