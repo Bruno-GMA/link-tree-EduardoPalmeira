@@ -15,8 +15,9 @@
 
     <!-- Faixa esquerda (sempre esticada verticalmente via bg-repeat-y) -->
     <div
-        class="absolute inset-y-0 left-0 z-0 w-[35px] h-[1024px] sm:w-[35px] sm:h-[800px] sm:z-0 md:w-[70px] md:h-[1120px] md:z-0 lg:w-[100px] lg:h-[1230px] lg:z-0 bg-[url('./assets/faixa_lateral_esquerda.svg')] bg-center bg-repeat-y pointer-events-none">
+        class="absolute top-0 z-0 left-[0.5rem] sm:left-[0.8rem] md:left-[1rem] lg:left-[1.2rem]  sm:w-[50px] md:w-[70px] lg:w-[100px] h-[1024px] sm:h-[640px] md:h-[1120px] lg:h-[1230px] bg-[url('./assets/faixa_lateral_esquerda.svg')] bg-center bg-no-repeat bg-contain pointer-events-none opacity-30"> 
     </div>
+
 
     <div class="min-h-screen flex flex-col items-center justify-center gap-[20px] text-[#F9F9F9]">
 
@@ -87,9 +88,10 @@
 
     </div> <!--Container-->
 
-     <!-- Faixa direita (espelhada). remova transform if não quiser espelhar) -->
-    <div
-        class="absolute inset-y-0 right-0 z-0 w-[35px] h-[1024px] sm:w-[35px] sm:h-[800px] sm:z-0 md:w-[70px] md:h-[1120px] md:z-0 lg:w-[100px] lg:h-[1230px] lg:z-0 bg-[url('./assets/faixa_lateral_direita.svg')] bg-repeat-y bg-center pointer-events-none">
+   <!-- Faixa direita (espelhada). remova transform if não quiser espelhar) -->
+   <div
+    class="absolute top-0 z-0 right-[0.5rem] sm:right-[0.8rem] md:right-[1rem] lg:right-[1.2rem]  w-[35px] sm:w-[50px]  md:w-[70px]  lg:w-[100px] h-[1024px] 
+    sm:h-[640px] md:h-[1120px] lg:h-[1230px] bg-[url('./assets/faixa_lateral_direita.svg')] bg-center bg-no-repeat bg-contain pointer-events-none opacity-30"> 
     </div>
 
 </body>
