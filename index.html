@@ -11,7 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
-<body class="relative min-h-screen min-w-screen bg-[url('./assets/Background.png')] bg-cover bg-no-repeat">
+<body class="relative min-h-screen min-w-screen bg-[#002E76] bg-[url('./assets/Background.png')] bg-cover bg-no-repeat">
+
+    <!-- Faixa esquerda -->
+    <div
+    class="absolute top-0 left-[0.6rem] sm:left-[0.8rem] md:left-[1rem] lg:left-[1.2rem] z-0 w-[35px] sm:w-[50px] md:w-[70px] lg:w-[100px] min-h-screen sm:h-[1024px] md:h-[1120px] lg:h-[1230px] bg-[url('./assets/faixa_lateral_direita.svg')] bg-center bg-no-repeat bg-contain transform scale-x-[-1] pointer-events-none opacity-30">
+    </div>
+
     <div class="min-h-screen flex flex-col items-center justify-center gap-[20px] text-[#F9F9F9]">
 
         <header class="flex flex-col items-center justify-center gap-[10px] mr-[1rem] ml-[1rem] pt-4">
@@ -86,6 +92,13 @@
         </footer>
 
     </div> <!--Container-->
+
+    <!-- Faixa direita -->
+   <div
+    class="absolute top-0 z-0 right-[0.5rem] sm:right-[0.8rem] md:right-[1rem] lg:right-[1.2rem] w-[35px] sm:w-[50px] md:w-[70px] lg:w-[100px] min-h-screen 
+    sm:h-[1024px] md:h-[1120px] lg:h-[1230px] bg-[url('./assets/faixa_lateral_direita.svg')] bg-center bg-no-repeat bg-contain pointer-events-none opacity-30"> 
+    </div>
+
 </body>
 
 
