@@ -11,11 +11,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
-<body class="relative min-h-screen min-w-screen bg-[url('./assets/Background.png')] bg-cover bg-no-repeat">
+
+<body class="relative min-h-screen min-w-screen bg-[#002E76] bg-[url('./assets/Background.png')] bg-cover bg-no-repeat">
+
+    <!-- Faixa esquerda -->
+    <div 
+    class="absolute inset-y-0 left-0 w-[35px] sm:w-[50px] md:w-[70px] lg:w-[100px] bg-[url('./assets/faixa_lateral_direita.svg')] bg-center bg-no-repeat bg-contain transform scale-x-[-1] pointer-events-none opacity-30">
+    </div>
+
     <div class="min-h-screen flex flex-col items-center justify-center gap-[20px] text-[#F9F9F9]">
 
         <header class="flex flex-col items-center justify-center gap-[10px] mr-[1rem] ml-[1rem] pt-4">
-            <img src ='./assets/Foto-de-Perfil.svg' alt="Foto de Perfil" class="mt-1">
+            <img src ='./assets/Foto-de-Perfil.svg' alt="Foto de Perfil" class="mt-1 z-20 relative">
             <p class="font-montserrat font-bold font-normal mt-3 text-center text-xs font-bold mb-[0.6rem]">"Encontre casas, apartamentos e imóveis comerciais com segurança e facilidade. Faça parte da nossa comunidade de clientes satisfeitos."</p>
         </header>
 
@@ -86,6 +93,12 @@
         </footer>
 
     </div> <!--Container-->
+
+    <!-- Faixa direita -->
+    <div 
+    class="absolute inset-y-0 right-0 w-[35px] sm:w-[50px] md:w-[70px] lg:w-[100px] bg-[url('./assets/faixa_lateral_direita.svg')] bg-center bg-no-repeat bg-contain pointer-events-none opacity-30">
+    </div>
+
 </body>
 
 
